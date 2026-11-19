@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "kernel-lore": {
+      "command": "npx",
+      "args": ["-y", "github:manorit2001/lore-mcp#master"],
+      "env": {
+        "LORE_BASE": "https://lore.kernel.org",
+        "LORE_SCOPE": "amd-gfx",
+        "LORE_MCP_MAILDIR": "${userHome}/.cache/lore-mcp/${workspaceFolderBasename}",
+        "LORE_MCP_SILENT_STARTUP": "1"
+      }
+    }
+  }
+}
